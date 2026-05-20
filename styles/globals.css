@@ -1,0 +1,160 @@
+:root {
+  color-scheme: dark;
+  background: #000;
+  color: #ededed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  min-height: 100%;
+}
+
+html {
+  background: #000;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #ededed;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: currentColor;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: #fff;
+}
+
+::selection {
+  background: #ededed;
+  color: #000;
+}
+
+.site-shell {
+  min-height: 100vh;
+  padding: 24px clamp(28px, 4.8vw, 86px) 80px;
+}
+
+.site-nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(36px, 5vw, 88px);
+  margin-bottom: clamp(96px, 8vw, 140px);
+}
+
+.nav-link {
+  color: #ededed;
+  font-size: clamp(1.45rem, 2vw, 1.82rem);
+  font-weight: 700;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.nav-link-active,
+.nav-link:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.28em;
+}
+
+.intro-copy,
+.page-copy {
+  font-size: clamp(1.45rem, 2.25vw, 2.12rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.65;
+  max-width: 1280px;
+}
+
+.intro-copy p,
+.page-copy > p {
+  margin: 0 0 1.45em;
+}
+
+.intro-copy p:last-child,
+.page-copy > p:last-child {
+  margin-bottom: 0;
+}
+
+.garden-list {
+  display: grid;
+  gap: 30px;
+  margin-top: 54px;
+  max-width: 980px;
+}
+
+.garden-list-item {
+  border-top: 1px solid rgba(237, 237, 237, 0.32);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding-top: 24px;
+}
+
+.garden-list-item h1 {
+  font-size: clamp(1.3rem, 1.7vw, 1.8rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 8px;
+}
+
+.garden-list-item p {
+  color: #cfcfcf;
+  font-size: clamp(1.05rem, 1.35vw, 1.35rem);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.garden-list-item span {
+  color: #a8a8a8;
+  font-size: clamp(1rem, 1.1vw, 1.15rem);
+  line-height: 1.5;
+  padding-top: 3px;
+}
+
+@media (max-width: 720px) {
+  .site-shell {
+    padding-bottom: 56px;
+    padding-top: 22px;
+  }
+
+  .site-nav {
+    gap: 22px;
+    margin-bottom: 76px;
+  }
+
+  .intro-copy,
+  .page-copy {
+    font-size: clamp(1.35rem, 6vw, 1.75rem);
+    line-height: 1.5;
+  }
+
+  .garden-list-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 360px) {
+  .site-nav {
+    gap: 18px;
+  }
+
+  .nav-link {
+    font-size: 1.12rem;
+  }
+}
