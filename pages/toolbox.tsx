@@ -2,32 +2,33 @@ import SiteLayout from '../components/SiteLayout'
 
 const tools = [
   {
-    title: 'Notion systems',
+    title: 'BIM workflows',
     description:
-      'Dashboards, databases, and workflows for professionals who want less clutter and clearer execution.',
+      'Modelling, drawing, and coordination habits for keeping design information clear, consistent, and usable.',
   },
   {
-    title: 'Engineering helpers',
+    title: 'Structural design helpers',
     description:
-      'Small calculators, checklists, and templates that make repetitive technical work easier to trust.',
+      'Checklists, templates, and calculation aids that make repetitive engineering work easier to review and trust.',
   },
   {
-    title: 'Personal operating system',
+    title: 'Sustainable construction references',
     description:
-      'Routines, review loops, and simple automations for working with more calm and less drag.',
+      'Material notes, case studies, and references for practical, efficient, and context-aware construction.',
   },
 ]
 
 export default function ToolboxPage() {
   return (
     <SiteLayout
-      title="Toolbox | Jesse's Digital Garden"
-      description="Tools, templates, and practical systems from Jesse's digital garden."
+      title="Toolbox | Charles Lwanga Sseggirinya"
+      description="Tools, templates, and practical systems from Charles Lwanga Sseggirinya."
     >
       <section className="page-copy">
         <p>
-          Toolbox is for the practical things: systems I use, templates I refine,
-          and small tools I make when a repeated problem has annoyed me enough.
+          Toolbox is for practical engineering resources: systems I use,
+          templates I refine, and small aids that make design, documentation,
+          and coordination work a little cleaner.
         </p>
 
         <div className="garden-list" aria-label="Toolbox items">

@@ -2,21 +2,21 @@ import SiteLayout from '../components/SiteLayout'
 
 const notes = [
   {
-    title: 'Ideas I keep returning to',
+    title: 'Structural engineering practice',
     description:
-      'Working notes on technology, better personal systems, green building, and the small frictions that are worth fixing.',
+      'Notes on design judgment, detailing, constructability, supervision, and the engineering decisions that make buildings stand well.',
     status: 'growing',
   },
   {
-    title: 'Mind movies and future-self scripts',
+    title: 'BIM and coordination',
     description:
-      'Private prompts, visualizations, and identity work that shape the direction of the garden.',
+      'Thoughts on modelling standards, drawing production, coordination workflows, and the small habits that keep project information trustworthy.',
     status: 'seedling',
   },
   {
-    title: 'Sustainability in practice',
+    title: 'Sustainable construction',
     description:
-      'Observations from design work, materials research, and building for East African contexts.',
+      'Observations on local materials, efficient structures, and practical routes toward smarter construction in Uganda and the wider region.',
     status: 'seedling',
   },
 ]
@@ -24,14 +24,14 @@ const notes = [
 export default function WritingPage() {
   return (
     <SiteLayout
-      title="Writing | Jesse's Digital Garden"
-      description="Writing and notes from Jesse's digital garden."
+      title="Writing | Charles Lwanga Sseggirinya"
+      description="Writing and notes from Charles Lwanga Sseggirinya."
     >
       <section className="page-copy">
         <p>
-          Writing is where I collect ideas before they become polished things.
-          Some notes are essays, some are field notes, and some are just useful
-          questions that have not left me alone yet.
+          Writing is where I collect engineering ideas before they become
+          polished things. Some notes are project reflections, some are technical
+          observations, and some are questions I want to keep thinking through.
         </p>
 
         <div className="garden-list" aria-label="Writing notes">

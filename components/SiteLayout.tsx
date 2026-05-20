@@ -16,8 +16,8 @@ type SiteLayoutProps = {
 }
 
 export default function SiteLayout({
-  title = "Jesse's Digital Garden",
-  description = 'Notes, tools, and practical experiments from Jesse.',
+  title = "Charles Lwanga Sseggirinya",
+  description = 'Structural engineering, BIM, computational design, and sustainable construction notes from Charles Lwanga Sseggirinya.',
   children,
 }: SiteLayoutProps) {
   const router = useRouter()

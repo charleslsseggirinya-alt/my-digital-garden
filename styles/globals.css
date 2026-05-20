@@ -45,8 +45,11 @@ a:hover {
 }
 
 .site-shell {
+  margin: 0 auto;
   min-height: 100vh;
-  padding: 24px clamp(28px, 4.8vw, 86px) 80px;
+  max-width: 980px;
+  padding: 24px 32px 80px;
+  width: 100%;
 }
 
 .site-nav {
@@ -54,12 +57,12 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: clamp(36px, 5vw, 88px);
-  margin-bottom: clamp(96px, 8vw, 140px);
+  margin-bottom: clamp(76px, 7vw, 112px);
 }
 
 .nav-link {
   color: #ededed;
-  font-size: clamp(1.45rem, 2vw, 1.82rem);
+  font-size: clamp(1.2rem, 1.35vw, 1.45rem);
   font-weight: 700;
   line-height: 1.1;
   text-decoration: none;
@@ -74,11 +77,11 @@ a:hover {
 
 .intro-copy,
 .page-copy {
-  font-size: clamp(1.45rem, 2.25vw, 2.12rem);
+  font-size: clamp(1.15rem, 1.55vw, 1.55rem);
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 1.65;
-  max-width: 1280px;
+  line-height: 1.7;
+  max-width: 860px;
 }
 
 .intro-copy p,
@@ -140,7 +143,7 @@ a:hover {
 
   .intro-copy,
   .page-copy {
-    font-size: clamp(1.35rem, 6vw, 1.75rem);
+    font-size: clamp(1.28rem, 5.7vw, 1.65rem);
     line-height: 1.5;
   }
 

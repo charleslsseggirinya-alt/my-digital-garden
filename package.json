@@ -2,13 +2,13 @@
   "name": "my-digital-garden",
   "version": "0.0.1",
   "private": true,
-  "description": "Jesse's digital garden",
+  "description": "Charles Lwanga Sseggirinya's digital garden",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "author": "Jesse",
+  "author": "Charles Lwanga Sseggirinya",
   "license": "MIT",
   "dependencies": {
     "next": "^13.0.6",
